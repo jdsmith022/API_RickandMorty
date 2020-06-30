@@ -1,0 +1,17 @@
+query ($status: String!) {
+  characters (filter: {status: $status}) {
+    results {
+      name
+      id
+      image
+      status
+      species
+      origin {
+        name
+      }
+      location {
+        name
+      }
+    }
+  }
+}

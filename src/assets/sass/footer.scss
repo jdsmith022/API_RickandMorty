@@ -1,0 +1,49 @@
+.footer-section {
+  background: black;
+  color: white;
+  display: flex;
+  p {
+    width: 90%;
+  }
+  h4{
+    padding-bottom: 16px;
+  }
+  .footer-content {
+    .right-side {
+      a {
+        color:  #85fe58 !important;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .left-side {
+      a {
+        color: #0fc6c8 !important;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .footer-image {
+      position: absolute;
+      width: 60px;
+      right: 0;
+      bottom: -50px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-section {
+    flex-direction: column;
+    .footer-content {
+      .right-side {
+        width: 100%;
+      }
+      .left-side {
+        width: 100%;
+      }
+    }
+  }
+}

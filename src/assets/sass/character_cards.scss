@@ -1,0 +1,40 @@
+.card-column {
+  padding-bottom: 16px;
+  .character-card {
+    .character-box {
+      max-width: 250px;
+      min-height: 615px;
+    }
+    .character-card-content {
+      .character-image {
+        margin: auto;
+      }
+      text-align: left !important;
+      .character-name {
+        font-weight: bold !important;
+      }
+      .character-status {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        .status-icon {
+          height: 0.5rem;
+          width: 0.5rem;
+          margin-right: 0.375rem;
+          border-radius: 50%;
+        }
+      }
+      .sub-title {
+        color: #adadad;
+        padding-top: 8px;
+        font-weight: 300;
+      }
+      a {
+        color: white !important;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
