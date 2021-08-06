@@ -1,4 +1,4 @@
-# Rick and Morty test
+# Rick and Morty API implementation with VueJS
 
 ![Demo of Rick and Morty API](https://github.com/jdsmith022/API_RickandMorty/blob/master/src/images/rickAndMorty.gif)
 
