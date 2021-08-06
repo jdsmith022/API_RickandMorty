@@ -1,6 +1,6 @@
 # Rick and Morty test
 
-![Demo of Rick and Morty API](https://github.com/jdsmith022/RickAndMorty/blob/master/src/images/rickAndMorty.gif)
+![Demo of Rick and Morty API](https://github.com/jdsmith022/API_RickandMorty/blob/master/src/images/rickAndMorty.gif)
 
 ## Implementation
 Completed as part of the Metabolic front-end developer internships interview process. To completed this project, I installed Bulma framework to make use of some components and features as well as sass. Plan on continuing to play around the API and add more features, ie: multiple search fields, highlight specific selection, adapt all character card links (which currently link to homepage).
